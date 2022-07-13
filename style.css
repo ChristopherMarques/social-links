@@ -63,6 +63,15 @@ body {
     padding: 15px;
     text-decoration: none;
 }
+.social-links li:hover {
+    transition: 0.3s;
+    background: rgba( 34, 35, 38, 0.3 );
+    box-shadow: 0 8px 32px 0 rgba( 152, 74, 97, 0.35 );
+    backdrop-filter: blur( 7px );
+    -webkit-backdrop-filter: blur( 7px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
 a {
     color: #fff;
     text-decoration: none;
@@ -70,6 +79,10 @@ a {
     font-size: 20px;
     transition: 0.3s;
 }
+a:hover {
+ color: #984a62;
+}
+
 footer {
     color: #fff;
     text-align: center;
