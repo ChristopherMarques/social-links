@@ -19,8 +19,8 @@ body {
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     color: #fff;
-    width: 20em;
-    height: 10em;
+    width: 25em;
+    height: 20em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -37,8 +37,8 @@ body {
     border-radius: 100px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     margin-bottom: 10px;
-    width: 100px;
-    height: 100px;
+    width: 180px;
+    height: 180px;
 }
 .img-container img{
     width: 100%;
@@ -76,7 +76,7 @@ a {
     color: #fff;
     text-decoration: none;
     padding: 10px;
-    font-size: 20px;
+    font-size: 30px;
     transition: 0.3s;
 }
 a:hover {
